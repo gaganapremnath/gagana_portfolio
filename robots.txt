@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://gaganapremnath28.github.io/sitemap-index.xml
+Host: https://gaganapremnath28.github.io
