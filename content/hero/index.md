@@ -5,8 +5,7 @@ subtitle: 'I love exploring new things!'
 buttonText: 'Contact Me'
 ---
 
-I am a Masters student with 5 years of industry experiecne in software developement. I am experienced in Full stack/Backend/Frontend Engineering, maintaining the production application, involved from start to end of application life cycle. I seek to improve, learn and grow at each step with passion and interest in technology.
+- I am a Senior Software Engineer with close to 6 years of experience in Full Stack, Backend, and Frontend Engineering. 
+- I also hold Master’s in Computer Science from Syracuse University, New York. 
 
-Currently I'm an pursuing my Master's in Computer Science from Syracuse University, New York and working as an Angular Developement intern at [Greif](https://www.greif.com)
-
-Outside work, I occasionally blog on [Medium](https://medium.com/@gagana.1128).
+- With hands-on experience in maintaining production applications and being involved throughout the application lifecycle—from inception to deployment and scaling, I am passionate about technology, continuously seeking opportunities to learn, grow, and refine my skills.

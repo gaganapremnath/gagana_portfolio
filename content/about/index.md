@@ -16,13 +16,17 @@ skills:
   - Postman API
   - Git | SVN | Putty | Twilio
   - Bitbucket | JIRA | WinSCP | Veracode
-  - AWS - EC2
+  - AWS
   - Eclipse | IntelliJ
 ---
 
-Hello 😀, interestingly I got into Computer Science & Engineering for my BE at [Sri JayaChamarajendra College of Engineering(Now JSS Science & Technology University)](https://jssstuniv.in/#/) where I completed my Bachelors(2013-2017) with 3.42 GPA .
+Hello 😀, interestingly I got into Computer Science & Engineering for my BE and today I hold a Master's degree with the same from [Syracuse University](https://www.syracuse.edu) with 3.6 GPA .
 
-I'm currently working as a developer for **Greif** in the widget development team. My responsibilty includes Angular/Javascript and REST APIs.
+- Currently, I am a Streaming Engineer(FullStack) at [talkshoplive](https://talkshop.live), where I contribute to building scalable web applications, focusing on optimizing live streaming with WebRTC, integrating RTMP Simulcast options for Instagram and Facebook, and improving real-time overlays using WebSockets. 
+
+- Previously, I interned and worked full time at [Greif](https://www.greif.com). Additionally, at LexisNexis (HPCC Systems), I worked on automating GitHub Actions pipelines for deploying HPCC modules using Terraform, winning the Best Research category in a poster competition.
+
+- Outside of work, I enjoy sharing my knowledge through blogs on [Medium](https://medium.com/@gagana.1128), covering topics related to software engineering, automation, and frontend frameworks.
 
 I have been awarded as Performer of the month in NTT DATA.
 

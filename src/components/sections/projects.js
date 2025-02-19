@@ -130,12 +130,12 @@ const StyledMoreButton = styled(Button)`
 const Projects = ({ data }) => {
   const [showMore, setShowMore] = useState(false);
   const revealTitle = useRef(null);
-  const revealArchiveLink = useRef(null);
+  // const revealArchiveLink = useRef(null);
   const revealProjects = useRef([]);
 
   useEffect(() => {
     sr.reveal(revealTitle.current, srConfig());
-    sr.reveal(revealArchiveLink.current, srConfig());
+    // sr.reveal(revealArchiveLink.current, srConfig());
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
@@ -146,10 +146,10 @@ const Projects = ({ data }) => {
 
   return (
     <StyledContainer>
-      <StyledTitle ref={revealTitle}>Other Noteworthy Projects</StyledTitle>
-      <StyledArchiveLink to="/archive" ref={revealArchiveLink}>
+      <StyledTitle ref={revealTitle} id="projects">Other Noteworthy Projects</StyledTitle>
+      {/* <StyledArchiveLink to="/archive" ref={revealArchiveLink}>
         View Complete List of Projects/Codes
-      </StyledArchiveLink>
+      </StyledArchiveLink> */}
 
       <StyledGrid>
         <TransitionGroup className="projects">

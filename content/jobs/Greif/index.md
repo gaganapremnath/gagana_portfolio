@@ -1,7 +1,7 @@
 ---
-title: 'Angular SDK Developer Intern'
+title: 'Angular SDK Developer Intern (Fulltime)'
 company: 'Greif'
-range: 'May 2023 - Present'
+range: 'May 2023 - May 2024'
 url: 'https://www.greif.com'
 ---
 

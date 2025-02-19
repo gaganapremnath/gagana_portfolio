@@ -162,6 +162,21 @@ const Jobs = ({ data }) => {
   const revealContainer = useRef(null);
   useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
 
+  const sortJobsByDate = (jobs) => {
+    return jobs.sort((a, b) => {
+      const getEndDate = (range) =>
+        range.includes('Present') ? new Date() : new Date(range.split('-')[1].trim());
+  
+      const endDateA = getEndDate(a.node.frontmatter.range);
+      const endDateB = getEndDate(b.node.frontmatter.range);
+  
+      return endDateB - endDateA; // Sort by end date descending
+    });
+  };
+  
+
+  const sortedData = sortJobsByDate(data);
+
   const focusTab = () => {
     if (tabs.current[tabFocus]) {
       tabs.current[tabFocus].focus();
@@ -195,11 +210,11 @@ const Jobs = ({ data }) => {
 
   return (
     <StyledContainer id="jobs" ref={revealContainer}>
-      <Heading>4.5 years of Experience working in India</Heading>
+      <Heading>5.8 years of Work as Web app Developer</Heading>
       <StyledTabs>
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyPressed(e)}>
-          {data &&
-            data.map(({ node }, i) => {
+          {sortedData &&
+            sortedData.map(({ node }, i) => {
               const { company } = node.frontmatter;
               return (
                 <li key={i}>
@@ -220,8 +235,8 @@ const Jobs = ({ data }) => {
           <StyledHighlight activeTabId={activeTabId} />
         </StyledTabList>
 
-        {data &&
-          data.map(({ node }, i) => {
+        {sortedData &&
+          sortedData.map(({ node }, i) => {
             const { frontmatter, html } = node;
             const { title, url, company, range } = frontmatter;
             return (

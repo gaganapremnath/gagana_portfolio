@@ -1,9 +1,9 @@
 module.exports = {
-  siteTitle: 'Gagana Premnath | Software Developer | Graduate Student',
+  siteTitle: 'Gagana Premnath | Software Developer',
   siteDescription:
-    'Gagana Premnath is a Software Developer Intern at Greif, who loves learning new things and helping tech beginners.',
+    'Gagana Premnath is a Software Developer at talkshoplive, who loves learning new things and helping tech beginners.',
   siteKeywords:
-    'Gagana Premnath, Gagana, Premnath, GaganaPremnath28, software developer, software engineer, web developer, java developer, masters, student, computer science, syracuse, university, greif ',
+    'Gagana Premnath, Gagana, Premnath, GaganaPremnath28, software developer, software engineer, web developer, java developer, masters, student, computer science, syracuse, university, greif, talkshoplive ',
   siteUrl: 'https://GaganaPremnath28.github.io/',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
@@ -40,10 +40,10 @@ module.exports = {
       name: 'Experience',
       url: '/#jobs',
     },
-    // {
-    //   name: 'Projects',
-    //   url: '/#projects',
-    // },
+    {
+      name: 'Projects',
+      url: '/#projects',
+    },
     {
       name: 'Contact',
       url: '/#contact',
